@@ -4,6 +4,31 @@
   <title>mars-weather</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div id="pictureOfTheDay" class="card">
+      <button class="btn btn-primary" id="pictureOfTheDay">get POD</button>
+      <div id="Img"></div>
+      <ul id="apodList">
+      </ul>
+    </div>
+    <div class="card" id="marsRover">
+      <button class="btn btn-primary" id="roverPicture">Rover!</button>
+      <div id="ImgRover">Mars photo taken by rover</div>
+      <ul id="rover">
+        <!-- put the title and explanation here -->
+      </ul>
+      <div id="ImgRover2"></div>
+      <ul id="rover2"></ul>
+
+      <div class="libSearch">
+        <form type="submit" id="libSearchForm">
+          <label for="nasaSearch" id="nasaPic">search the nasa library for images/videos</label>
+          <input type="text" id="nasaSearch">
+          <buttton type="submit" class="btn btn-danger" id="libSearchBtn">search</buttton>
+        </form>
+        <ul id="libPics"></ul>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
